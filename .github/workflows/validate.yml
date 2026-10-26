@@ -14,4 +14,4 @@ jobs:
         with:
           node-version: 'lts/*'
       - name: Validate renovate config
-        run: npx --yes --package renovate -- renovate-config-validator --no-global default.jsonc
+        run: npx --yes --package renovate -- renovate-config-validator --no-global default.json
