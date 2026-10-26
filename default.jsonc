@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  // Base preset shared across all repos
+  "extends": ["config:recommended"],
+  // Org-wide tweaks (uncomment/edit as needed):
+  // "labels": ["dependencies"],
+  // "prConcurrentLimit": 5,
+  // "schedule": ["before 6am on monday"]
+}
