@@ -7,6 +7,7 @@
   "labels": ["dependencies"],
   "packageRules": [
     { "matchUpdateTypes": ["minor", "patch"], "automerge": true },
+    { "matchUpdateTypes": ["major"], "automerge": false, "assignees": ["andreasnicklaus"] },
     { "matchUpdateTypes": ["pin"], "automerge": true }
   ],
   "vulnerabilityAlerts": {
